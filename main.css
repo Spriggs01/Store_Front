@@ -1,0 +1,351 @@
+ 
+
+body {
+     margin: 0;
+     padding: 0;
+}
+div {
+    display:block;
+}
+.backTop-btn a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+
+}
+
+a:-webkit-any-link {
+    color:-webkit-link;
+    cursor: pointer;
+}
+header img {
+    height: 65px;
+    padding: 12.5px;
+    float: left;
+    position: absolute;
+}
+
+.backTop {
+    width: 75px;
+    height: 25px;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px 0px 0px 10px;
+    float: right;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+    z-index: 1;
+}
+header {
+   margin: 0;
+   width: 100%;
+   height: 100px;
+   background-color: pink;
+   
+
+}
+
+header img {
+    padding: 12.5px;
+    float: left;
+    position: absolute;
+}
+#mainNav {
+    float: right;
+    display: inline-block;
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    position: relative;
+}
+#mainNav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-size: 1000px;
+    margin: 0px 0px 0px 0px;
+    background: url(assets/catBanner.jpg);
+
+}
+
+#about {
+    
+    width: 100%;
+    height: 1000px;
+    background: url(assets/Pure_Bread_cat.jpg) center;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: white;
+    background-color: transparent;
+    
+}
+iframe {
+      width:1000px;
+      height: 350px;
+     
+      border-style: inset;
+      border-color: initial;
+    
+      padding: 10px 10px 10px 0px;
+      position: relative;
+
+}
+.aboutText {
+    width: 50%;
+    height: auto;
+    padding:20px;
+    margin: 0px 0px 0px 60px;
+    position: absolute;
+    top: 15%;
+    float: left;
+    z-index: 2;
+}
+#shop {
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+
+}
+#blog {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+}
+#contact {
+    clear: left;
+    padding: 30px 30px 30px 70px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.homeGoods {
+    background: url(assets/catPlates.jpg) center top no-repeat;
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relatve;
+
+}
+.merchBtn {
+    border-radius: 3px;
+    width: 150px;
+    border:3px solid;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition:  all 0.3s ease;
+    position: relative;
+    top: 40%;
+}
+.tshirts {
+    background: url(assets/tshirts.jpg) center center no-repeat;
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+
+}
+.photos {
+    background: url(assets/OMG.jpg) center center no-repeat; 
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+}
+#blog {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+    background-color: lightpink;
+}
+.blog-text {
+    width: 75%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#contact {
+    clear:left;
+    padding: 30px 30px 30px 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+legend {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:24px;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-block-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+}
+label{
+    cursor: default;
+}
+input {
+    border-radius: 3px;
+    padding: 1px 0px;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode:
+    horizontal-tb !imporant;
+}
+textarea {
+    width: 600px;
+    height: 300px;
+    border-radius: 3px;
+    font-family: monospace;
+    border-color: rgb(169, 169, 169);
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering:logical;
+    flex-direction: column;
+    resize: auto;
+    cursor:text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    padding: 2px;
+}
+#contact button {
+    background-color:white;
+    font-size: 16px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 3px;
+    transition: all 0.3s
+    ease;
+}
+button {
+    -webkit-appearance:  button;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    margin: 0;
+}
+.copyRight {
+    color:white;
+    float: left;
+    font-size: 15px;
+    padding: 0px 50px 0px 50px;
+    position: relative;
+    top: 20%
+}
+div {
+    display: block;
+}
+.copyRight a {
+    text-decoration: none;
+    color: white;
+}
+.soc-buttons {
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    top: 35%;
+    float: right;
+}
+span.insta-button a:link {
+    width: 30px;
+    height: 30px;
+    background: url(assets/fbicon.png) no-repeat;
+    transition: all 0.2s ease;
+    float: left;
+    padding:0px 5px 0px 5px;
+}
+span.icon a:link{
+    display: block;
+    text-indent: -9999px;
+}
+span.twitter-button a:link {
+    width: 10px;
+    height: 10px;
+    background: url(assets/Tweet_download.jpg);
+    transition: all 0.2s ease;
+    float: left;
+    padding:0px 5px 0px 5px;
+    background-color: white;
+}
+    
